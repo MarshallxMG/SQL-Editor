@@ -1,0 +1,23 @@
+# Core GUI framework
+ttkbootstrap
+
+# Database connector
+pymysql
+
+# Image processing (required for EER export)
+Pillow
+
+# Charting / Visualization
+matplotlib
+mplcursors
+
+# Excel export
+openpyxl
+
+# Password encryption (optional, for saving encrypted DB passwords)
+cryptography
+
+# AI features (Gemini, natural-language-to-SQL, charts)
+google-generativeai
+
+# Optional: If you use tkinterdnd2 or other drag-drop libs, add them here manually
