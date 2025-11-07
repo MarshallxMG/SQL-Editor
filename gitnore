@@ -1,0 +1,87 @@
+# ----------------------------
+# Python
+# ----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ----------------------------
+# OS-specific
+# ----------------------------
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ----------------------------
+# Project-specific (SQL Editor)
+# ----------------------------
+# Autosaved drafts
+drafts/
+*.sql.draft
+draft_tab_*.sql
+
+# Encrypted key file for saved DB passwords
+secret.key
+
+# Saved workspace file
+workspace_state.json
+workspace.json
+workspace.cache
+workspace.*
+
+# User configuration
+config.json
+connections.json
+*.config
+
+# Loading overlays, temp canvas exports
+*.ps
+*.tmp
+*.temp
+
+# EER diagram exports (optional)
+exports/
+diagram_export/
+*.png
+*.pdf
+
+# Logs and debug output
+debug.log
+error.log
+
+# ----------------------------
+# Jupyter (if used)
+# ----------------------------
+.ipynb_checkpoints/
+*.ipynb
+
+# ----------------------------
+# Build / Packaging
+# ----------------------------
+dist/
+build/
+*.spec
